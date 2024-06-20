@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="webfonts/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>registration</title>
+</head>
+<body>
+<div class="reg p-1">
+<div class="container p-1 my-5">
+
+    <input oninput="ValidateName()" id="fname" type="text" class="form-control my-3 " placeholder="Enter your name" required>
+    <div id="ndanger" class="alert alert-danger p-1 mt-2 d-none">
+        <small>name is not valid</small>
+    </div>
+    
+    
+    
+   
+
+    <input oninput="ValidateEmail()" id="email" type="email" class="form-control my-3 " placeholder="Enter your email" >
+    <div id="danger" class="alert alert-danger p-1 mt-2 d-none">
+        <small>email is not valid</small>
+    </div>
+    
+    
+    <input oninput="ValidatePass()" id="password" type="password" class="form-control my-3 " placeholder="Enter your password" required>
+    <div id="pdanger" class="alert alert-danger p-1 mt-2 d-none">
+        <small>password is not valid</small>
+    </div>
+    <p class="error d-none" id="error">All inputs is required!!</p>
+    <button onclick="signup()" id="regbtn" class="w-100 mt-5 ">Sign Up</button>
+
+    <a  href="index.html"><button class="signin-an">Sign In</button> </a>
+
+    
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,183 @@
+
+/* login page */
+.main{
+    background-color: #24353f;
+    height: 100vh;
+    padding-top: 1px;
+}
+.data{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 65%;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+
+}
+.data h2{
+    color: #17a2b8;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    margin-top: 0;
+}
+.data input::placeholder{
+    color: #fff;
+}
+.data input{
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: #fff;
+}
+.data input:focus {
+    border:1px solid #80bdff;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+.data button{
+    color: #17a2b8;
+    background-color: transparent;
+    border-color: #17a2b8;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border: 1px solid ;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.data button:hover{
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.data button:focus{
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5);
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8;
+}
+
+.data p{
+    color: #fff ;
+    margin-bottom: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.data a{
+    color: #fff ;
+    margin-bottom: 1rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none   ;
+}
+.data a:hover{
+    text-decoration: underline;
+}
+
+/* home page */
+.home{
+    background-color: teal;
+    height: 100vh;
+    padding-top: 1px;
+}
+.home h1{
+    font-size: 70px;
+}
+
+
+
+#home button{
+    color: #17a2b8;
+    background-color: transparent;
+    border-color: #17a2b8;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border: 1px solid ;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#home button:hover{
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+#home button:focus{
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5);
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8;
+}
+
+/* reg page */
+.reg{
+    height: 100vh;
+    background-color: #17a2b8;
+    color: #fff;
+}
+.reg input::placeholder{
+    color: #fff;
+}
+.reg input{
+    height: 2.5rem;
+    border-radius: 0.25rem;
+    /* border: 1px solid #ced4da; */
+    background-color: transparent;
+    color: #fff;
+}
+.reg input:focus {
+    border:1px solid #80bdff;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+
+.reg button{
+    color: #17a2b8;
+    background-color: #24353f;
+    border-color: #17a2b8;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border: 1px solid ;
+    height: 2.5rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+}
+
+.reg button:hover{
+    color: #fff;
+    background-color: darkcyan;
+    border-color: #17a2b8;
+}
+.reg button:focus{
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5);
+    color: #17a2b8;
+    /* background-color: transparent; */
+    background-image: none;
+    border-color: #17a2b8;
+}
+
+
+.signin-an{
+    
+    color: #fff;
+    width: 100%;
+    border: #24353f 2px solid;
+    border-radius: 5px;
+}
+
+.error{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    
+}
